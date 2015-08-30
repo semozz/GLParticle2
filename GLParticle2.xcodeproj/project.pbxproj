@@ -6,20 +6,250 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		78260C961B92E4E0002CBFCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78260C951B92E4E0002CBFCB /* main.m */; };
+		78260C991B92E4E0002CBFCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78260C981B92E4E0002CBFCB /* AppDelegate.m */; };
+		78260C9C1B92E4E0002CBFCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78260C9B1B92E4E0002CBFCB /* ViewController.m */; };
+		78260C9F1B92E4E0002CBFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78260C9D1B92E4E0002CBFCB /* Main.storyboard */; };
+		78260CA11B92E4E0002CBFCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78260CA01B92E4E0002CBFCB /* Images.xcassets */; };
+		78260CA41B92E4E0002CBFCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78260CA21B92E4E0002CBFCB /* LaunchScreen.xib */; };
+		78260CB01B92E4E0002CBFCB /* GLParticle2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78260CAF1B92E4E0002CBFCB /* GLParticle2Tests.m */; };
+		78260CB81B92E534002CBFCB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78260CB71B92E534002CBFCB /* GLKit.framework */; };
+		78260CBA1B92E566002CBFCB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78260CB91B92E566002CBFCB /* OpenGLES.framework */; };
+		78260CBD1B92E638002CBFCB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78260CBC1B92E638002CBFCB /* MainViewController.m */; };
+		78260CC01B92E8F5002CBFCB /* EmitterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78260CBF1B92E8F5002CBFCB /* EmitterObject.m */; };
+		78260CC21B92EB82002CBFCB /* Emitter.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 78260CC11B92EB82002CBFCB /* Emitter.vsh */; };
+		78260CC41B92EBC9002CBFCB /* Emitter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 78260CC31B92EBC9002CBFCB /* Emitter.fsh */; };
+		78260CC91B92ED45002CBFCB /* EmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78260CC81B92ED45002CBFCB /* EmitterShader.m */; };
+		78260CD61B92F2DD002CBFCB /* ShaderProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78260CD11B92F2DD002CBFCB /* ShaderProcessor.mm */; };
+		78260CD71B92F2DD002CBFCB /* texture_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 78260CD31B92F2DD002CBFCB /* texture_16.png */; };
+		78260CD81B92F2DD002CBFCB /* texture_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 78260CD41B92F2DD002CBFCB /* texture_32.png */; };
+		78260CD91B92F2DD002CBFCB /* texture_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 78260CD51B92F2DD002CBFCB /* texture_64.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78260CAA1B92E4E0002CBFCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78260C861B92E4D0002CBFCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78260C8F1B92E4E0002CBFCB;
+			remoteInfo = GLParticle2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78260C901B92E4E0002CBFCB /* GLParticle2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLParticle2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78260C941B92E4E0002CBFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78260C951B92E4E0002CBFCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78260C971B92E4E0002CBFCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78260C981B92E4E0002CBFCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78260C9A1B92E4E0002CBFCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78260C9B1B92E4E0002CBFCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78260C9E1B92E4E0002CBFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78260CA01B92E4E0002CBFCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78260CA31B92E4E0002CBFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		78260CA91B92E4E0002CBFCB /* GLParticle2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLParticle2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78260CAE1B92E4E0002CBFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78260CAF1B92E4E0002CBFCB /* GLParticle2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLParticle2Tests.m; sourceTree = "<group>"; };
+		78260CB71B92E534002CBFCB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		78260CB91B92E566002CBFCB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		78260CBB1B92E638002CBFCB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		78260CBC1B92E638002CBFCB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		78260CBE1B92E8F5002CBFCB /* EmitterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterObject.h; sourceTree = "<group>"; };
+		78260CBF1B92E8F5002CBFCB /* EmitterObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterObject.m; sourceTree = "<group>"; };
+		78260CC11B92EB82002CBFCB /* Emitter.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.vsh; sourceTree = "<group>"; };
+		78260CC31B92EBC9002CBFCB /* Emitter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.fsh; sourceTree = "<group>"; };
+		78260CC71B92ED45002CBFCB /* EmitterShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterShader.h; sourceTree = "<group>"; };
+		78260CC81B92ED45002CBFCB /* EmitterShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterShader.m; sourceTree = "<group>"; };
+		78260CD01B92F2DD002CBFCB /* ShaderProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProcessor.h; sourceTree = "<group>"; };
+		78260CD11B92F2DD002CBFCB /* ShaderProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShaderProcessor.mm; sourceTree = "<group>"; };
+		78260CD31B92F2DD002CBFCB /* texture_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture_16.png; sourceTree = "<group>"; };
+		78260CD41B92F2DD002CBFCB /* texture_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture_32.png; sourceTree = "<group>"; };
+		78260CD51B92F2DD002CBFCB /* texture_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture_64.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78260C8D1B92E4E0002CBFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78260CBA1B92E566002CBFCB /* OpenGLES.framework in Frameworks */,
+				78260CB81B92E534002CBFCB /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78260CA61B92E4E0002CBFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		78260C851B92E4D0002CBFCB = {
 			isa = PBXGroup;
 			children = (
+				78260CB91B92E566002CBFCB /* OpenGLES.framework */,
+				78260CB71B92E534002CBFCB /* GLKit.framework */,
+				78260C921B92E4E0002CBFCB /* GLParticle2 */,
+				78260CAC1B92E4E0002CBFCB /* GLParticle2Tests */,
+				78260C911B92E4E0002CBFCB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		78260C911B92E4E0002CBFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78260C901B92E4E0002CBFCB /* GLParticle2.app */,
+				78260CA91B92E4E0002CBFCB /* GLParticle2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78260C921B92E4E0002CBFCB /* GLParticle2 */ = {
+			isa = PBXGroup;
+			children = (
+				78260CCF1B92F2DD002CBFCB /* ShaderProcessor */,
+				78260CCE1B92F2DD002CBFCB /* Resources */,
+				78260CCA1B92F131002CBFCB /* ShaderProcessor */,
+				78260C971B92E4E0002CBFCB /* AppDelegate.h */,
+				78260C981B92E4E0002CBFCB /* AppDelegate.m */,
+				78260C9A1B92E4E0002CBFCB /* ViewController.h */,
+				78260C9B1B92E4E0002CBFCB /* ViewController.m */,
+				78260C9D1B92E4E0002CBFCB /* Main.storyboard */,
+				78260CBB1B92E638002CBFCB /* MainViewController.h */,
+				78260CBC1B92E638002CBFCB /* MainViewController.m */,
+				78260CC11B92EB82002CBFCB /* Emitter.vsh */,
+				78260CC31B92EBC9002CBFCB /* Emitter.fsh */,
+				78260CA01B92E4E0002CBFCB /* Images.xcassets */,
+				78260CA21B92E4E0002CBFCB /* LaunchScreen.xib */,
+				78260C931B92E4E0002CBFCB /* Supporting Files */,
+				78260CBE1B92E8F5002CBFCB /* EmitterObject.h */,
+				78260CBF1B92E8F5002CBFCB /* EmitterObject.m */,
+				78260CC71B92ED45002CBFCB /* EmitterShader.h */,
+				78260CC81B92ED45002CBFCB /* EmitterShader.m */,
+			);
+			path = GLParticle2;
+			sourceTree = "<group>";
+		};
+		78260C931B92E4E0002CBFCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78260C941B92E4E0002CBFCB /* Info.plist */,
+				78260C951B92E4E0002CBFCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78260CAC1B92E4E0002CBFCB /* GLParticle2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				78260CAF1B92E4E0002CBFCB /* GLParticle2Tests.m */,
+				78260CAD1B92E4E0002CBFCB /* Supporting Files */,
+			);
+			path = GLParticle2Tests;
+			sourceTree = "<group>";
+		};
+		78260CAD1B92E4E0002CBFCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78260CAE1B92E4E0002CBFCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78260CCA1B92F131002CBFCB /* ShaderProcessor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ShaderProcessor;
+			path = ../../../../Downloads/Resources/ShaderProcessor;
+			sourceTree = "<group>";
+		};
+		78260CCE1B92F2DD002CBFCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78260CD21B92F2DD002CBFCB /* Textures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		78260CCF1B92F2DD002CBFCB /* ShaderProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				78260CD01B92F2DD002CBFCB /* ShaderProcessor.h */,
+				78260CD11B92F2DD002CBFCB /* ShaderProcessor.mm */,
+			);
+			name = ShaderProcessor;
+			path = Resources/ShaderProcessor;
+			sourceTree = "<group>";
+		};
+		78260CD21B92F2DD002CBFCB /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				78260CD31B92F2DD002CBFCB /* texture_16.png */,
+				78260CD41B92F2DD002CBFCB /* texture_32.png */,
+				78260CD51B92F2DD002CBFCB /* texture_64.png */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78260C8F1B92E4E0002CBFCB /* GLParticle2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78260CB11B92E4E0002CBFCB /* Build configuration list for PBXNativeTarget "GLParticle2" */;
+			buildPhases = (
+				78260C8C1B92E4E0002CBFCB /* Sources */,
+				78260C8D1B92E4E0002CBFCB /* Frameworks */,
+				78260C8E1B92E4E0002CBFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLParticle2;
+			productName = GLParticle2;
+			productReference = 78260C901B92E4E0002CBFCB /* GLParticle2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78260CA81B92E4E0002CBFCB /* GLParticle2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78260CB41B92E4E0002CBFCB /* Build configuration list for PBXNativeTarget "GLParticle2Tests" */;
+			buildPhases = (
+				78260CA51B92E4E0002CBFCB /* Sources */,
+				78260CA61B92E4E0002CBFCB /* Frameworks */,
+				78260CA71B92E4E0002CBFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78260CAB1B92E4E0002CBFCB /* PBXTargetDependency */,
+			);
+			name = GLParticle2Tests;
+			productName = GLParticle2Tests;
+			productReference = 78260CA91B92E4E0002CBFCB /* GLParticle2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		78260C861B92E4D0002CBFCB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					78260C8F1B92E4E0002CBFCB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					78260CA81B92E4E0002CBFCB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 78260C8F1B92E4E0002CBFCB;
+					};
+				};
 			};
 			buildConfigurationList = 78260C891B92E4D0002CBFCB /* Build configuration list for PBXProject "GLParticle2" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,14 +257,95 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 78260C851B92E4D0002CBFCB;
+			productRefGroup = 78260C911B92E4E0002CBFCB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				78260C8F1B92E4E0002CBFCB /* GLParticle2 */,
+				78260CA81B92E4E0002CBFCB /* GLParticle2Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78260C8E1B92E4E0002CBFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78260CD71B92F2DD002CBFCB /* texture_16.png in Resources */,
+				78260CC21B92EB82002CBFCB /* Emitter.vsh in Resources */,
+				78260C9F1B92E4E0002CBFCB /* Main.storyboard in Resources */,
+				78260CD91B92F2DD002CBFCB /* texture_64.png in Resources */,
+				78260CA41B92E4E0002CBFCB /* LaunchScreen.xib in Resources */,
+				78260CA11B92E4E0002CBFCB /* Images.xcassets in Resources */,
+				78260CD81B92F2DD002CBFCB /* texture_32.png in Resources */,
+				78260CC41B92EBC9002CBFCB /* Emitter.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78260CA71B92E4E0002CBFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78260C8C1B92E4E0002CBFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78260C9C1B92E4E0002CBFCB /* ViewController.m in Sources */,
+				78260C991B92E4E0002CBFCB /* AppDelegate.m in Sources */,
+				78260CC01B92E8F5002CBFCB /* EmitterObject.m in Sources */,
+				78260CD61B92F2DD002CBFCB /* ShaderProcessor.mm in Sources */,
+				78260CC91B92ED45002CBFCB /* EmitterShader.m in Sources */,
+				78260C961B92E4E0002CBFCB /* main.m in Sources */,
+				78260CBD1B92E638002CBFCB /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78260CA51B92E4E0002CBFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78260CB01B92E4E0002CBFCB /* GLParticle2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78260CAB1B92E4E0002CBFCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78260C8F1B92E4E0002CBFCB /* GLParticle2 */;
+			targetProxy = 78260CAA1B92E4E0002CBFCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78260C9D1B92E4E0002CBFCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78260C9E1B92E4E0002CBFCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78260CA21B92E4E0002CBFCB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78260CA31B92E4E0002CBFCB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		78260C8A1B92E4D0002CBFCB /* Debug */ = {
@@ -49,6 +360,192 @@
 			};
 			name = Release;
 		};
+		78260CB21B92E4E0002CBFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GLParticle2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78260CB31B92E4E0002CBFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GLParticle2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78260CB51B92E4E0002CBFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GLParticle2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLParticle2.app/GLParticle2";
+			};
+			name = Debug;
+		};
+		78260CB61B92E4E0002CBFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GLParticle2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLParticle2.app/GLParticle2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -60,6 +557,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		78260CB11B92E4E0002CBFCB /* Build configuration list for PBXNativeTarget "GLParticle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78260CB21B92E4E0002CBFCB /* Debug */,
+				78260CB31B92E4E0002CBFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78260CB41B92E4E0002CBFCB /* Build configuration list for PBXNativeTarget "GLParticle2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78260CB51B92E4E0002CBFCB /* Debug */,
+				78260CB61B92E4E0002CBFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
